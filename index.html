@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy Avendaño | Desarrollador Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="profile">
+                <img src="IMAGENES/CV FOTO.jpeg" alt="Andy Avendaño" class="profile-img">
+                <h1 class="profile-title">Andy Avendaño</h1>
+            </div>
+            <nav class="nav">
+                <a href="#experiencia" class="nav-link">Experiencia</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+                <a href="https://github.com/ANDY221004" target="_blank" class="nav-link">GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero-title">Desarrollador Web</h2>
+        <p class="hero-subtitle">Estudiante de Ingeniería de Sistemas en el IV ciclo, especializado en desarrollo de aplicaciones web y proyectos freelance.</p>
+        <div class="skills-container">
+            <span class="skill-badge">HTML</span>
+            <span class="skill-badge">CSS</span>
+            <span class="skill-badge">JavaScript</span>
+        </div>
+    </section>
+
+    <section id="experiencia" class="experience">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - Presente</div>
+                <div class="timeline-content">
+                    <h3>Desarrollador Web Freelance</h3>
+                    <p class="company">Proyectos Independientes</p>
+                    <ul class="responsibilities">
+                        <li>Desarrollo de sitios web responsivos para pequeñas empresas</li>
+                        <li>Implementación de soluciones personalizadas usando HTML, CSS y JavaScript</li>
+                        <li>Optimización de rendimiento y SEO básico</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Pasante de Desarrollo Web</h3>
+                    <p class="company">Empresa Tech Local</p>
+                    <ul class="responsibilities">
+                        <li>Colaboración en el desarrollo de interfaces de usuario</li>
+                        <li>Mantenimiento de sitios web existentes</li>
+                        <li>Trabajo en equipo usando metodologías ágiles</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2021 - 2022</div>
+                <div class="timeline-content">
+                    <h3>Asistente de Laboratorio de Computación</h3>
+                    <p class="company">Universidad XYZ</p>
+                    <ul class="responsibilities">
+                        <li>Apoyo técnico a estudiantes en proyectos de programación</li>
+                        <li>Mantenimiento básico de equipos</li>
+                        <li>Organización de talleres de programación</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+        <h2 class="section-title">Mis Proyectos</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-preview" style="background-color: #3498db;">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Platform</h3>
+                    <p>Plataforma de comercio electrónico con carrito de compras y pasarela de pagos.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </article>
+    
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-preview" style="background-color: #e74c3c;">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Task Manager</h3>
+                    <p>Aplicación de gestión de tareas con características de colaboración en tiempo real.</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://task-manager-orpin-five.vercel.app/" class="project-link">Demo</a>
+                        <a href="https://github.com/ANDY221004/Task-Manager/" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </article>
+    
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-preview" style="background-color: #2ecc71;">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Dashboard Analytics</h3>
+                    <p>Panel de control para visualización de datos y métricas empresariales.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>D3.js</span>
+                        <span>API REST</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+        
+    <section id="contacto" class="contact">
+        <h2 class="section-title">Contáctame</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+    
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>email@ejemplo.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+51 123 456 789</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Lima, Perú</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de Descarga de CV -->
+<!-- Sección de Descarga de CV -->
+<section class="cv-download-area">
+    <div class="container">
+        <h2 class="section-title">Descarga mi CV</h2>
+        <div class="cv-options">
+            <a href="ANDY AVENDAÑO.CV.pdf" class="cv-link" download>
+                <i class="fas fa-file-download"></i>
+                Descargar CV (PDF)
+            </a>
+        </div>
+        <div class="cv-preview">
+            <iframe src="ANDY AVENDAÑO.CV.pdf" frameborder="0"></iframe>
+        </div>
+    </div>
+</section>
+<!-- Sección de Tecnología que estás aprendiendo -->
+<section class="technology-section">
+    <div class="container">
+        <h2 class="section-title">Tecnología que estoy aprendiendo</h2>
+        <div class="technology-list">
+            <div class="technology-item">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="technology-item">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="technology-item technology-item--highlighted">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="technology-item">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+            </div>
+            <div class="technology-item">
+                <i class="fab fa-node-js"></i>
+                <h3>Node.js</h3>
+            </div>
+            <div class="technology-item">
+                <i class="fab fa-database"></i>
+                <h3>MongoDB</h3>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Agregar antes del cierre del body -->
+<button id="scrollToTop" class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<!-- Agregar antes del cierre del body -->
+<script src="https://kit.fontawesome.com/tu-codigo-de-font-awesome.js"></script>
+<script>
+// Loader
+window.addEventListener('load', () => {
+    const loader = document.querySelector('.loader');
+    loader.classList.add('hidden');
+});
+
+// Scroll suave
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Botón scroll to top
+const scrollToTopButton = document.getElementById('scrollToTop');
+
+window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 100) {
+        scrollToTopButton.classList.add('visible');
+    } else {
+        scrollToTopButton.classList.remove('visible');
+    }
+});
+
+scrollToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+// Animaciones de entrada
+const observerOptions = {
+    threshold: 0.1
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in');
+        }
+    });
+}, observerOptions);
+
+document.querySelectorAll('.timeline-item, .project-card, .section-title').forEach(el => {
+    el.classList.add('fade-in');
+    observer.observe(el);
+});
+
+// Formulario de contacto
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    // Aquí puedes agregar la lógica para enviar el formulario
+    alert('Mensaje enviado correctamente!');
+    this.reset();
+});
+</script>
+<script>
+    // Botón de volver arriba
+    const scrollBtn = document.querySelector('.scroll-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            scrollBtn.classList.add('visible');
+        } else {
+            scrollBtn.classList.remove('visible');
+        }
+    });
+    
+    scrollBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+</body>
+
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <h3>¡Conectemos!</h3>
+            <p>Sígueme en redes sociales</p>
+            <div class="social-links">
+                <a href="https://github.com/ANDY221004" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/andy-sebastian-avenda%C3%B1o-ramirez-3a5993337/" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/TU-USUARIO" class="social-link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/andx.rmrz/" class="social-link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Portafolio creado de Andy de Obregón Silva -. Todos los derechos reservados ©.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Botón de volver arriba -->
+<button class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+</html>
